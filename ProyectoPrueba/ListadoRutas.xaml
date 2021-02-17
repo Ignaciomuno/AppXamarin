@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoPrueba.ListadoRutas"
+             BackgroundColor="White"
+             Title="Rutas Asignadas">
+
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="180" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Rutas Asignadas" TextColor="White" FontSize="Large" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" />
+            <Frame Padding="0" Margin="10,10,10,10" BackgroundColor="White" HasShadow="False" BorderColor="Black" CornerRadius="15" HeightRequest="30" Grid.Row="0" Grid.Column="1">
+                <SearchBar x:Name="BtnSearch"
+                  HorizontalOptions="EndAndExpand"   BackgroundColor="White" TextColor="Black" />
+            </Frame>
+        </Grid>
+    </NavigationPage.TitleView>
+    <StackLayout Margin="20,20,20,20">
+        <Label Text="Hoy" TextColor="Black"/>
+        <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" BackgroundColor="AliceBlue">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"
+                                   Source="{Binding Imagen}"/>
+                            <Label Grid.Column="1"
+                                   Text="{Binding NombreRuta}"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Column="2"
+                                   Text="{Binding Descripcion}"
+                                   TextColor="Black"                                  
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

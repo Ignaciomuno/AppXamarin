@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoPrueba.Apps.LoginPage">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="White"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Column="0" Source="AppLogo.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
+
+
+                <StackLayout Grid.Row="1" Padding="30,20">
+                    <Entry x:Name="txtUsuarios" Placeholder="Usuario" PlaceholderColor="black" TextColor="Black"/>
+                    <Entry x:Name="txtPass" Placeholder="Contraseña" PlaceholderColor="Black" TextColor="Black" IsPassword="True"/>
+                    <Button x:Name="btninciar" Text="Iniciar Sesion" BackgroundColor="Black" TextColor="White" BorderWidth="20" />
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
