@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WgA1lHH38DcvUJ314aRmk6KvxEXOG53WEUYGclQ23kwcqJ+WtQxwE2+hAfB+QKCISRw/Ntyb4B2Q60zh4TgYCw==",
+  "dgSpecHash": "uj6J8Y2Tt9GmaEX85O7UGZyHnefE0bXpqRldSaq/alJqMtIU83n6Rvi8wr9rxzClfU64IXj41tnQsW3LnMucYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
+  "projectFilePath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ignacio.munoz\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",

@@ -1092,11 +1092,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
+      "projectUniqueName": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
       "projectName": "ProyectoPrueba.iOS",
-      "projectPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
+      "projectPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.iOS\\ProyectoPrueba.iOS.csproj",
       "packagesPath": "C:\\Users\\ignacio.munoz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.iOS\\obj\\",
+      "outputPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1120,8 +1120,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba\\ProyectoPrueba.csproj": {
-              "projectPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba\\ProyectoPrueba.csproj"
+            "C:\\GitHub\\AppXamarin\\ProyectoPrueba\\ProyectoPrueba.csproj": {
+              "projectPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba\\ProyectoPrueba.csproj"
             }
           }
         }

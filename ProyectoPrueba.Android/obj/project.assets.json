@@ -1998,11 +1998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
+      "projectUniqueName": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
       "projectName": "ProyectoPrueba.Android",
-      "projectPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
+      "projectPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
       "packagesPath": "C:\\Users\\ignacio.munoz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Android\\obj\\",
+      "outputPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2026,8 +2026,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba\\ProyectoPrueba.csproj": {
-              "projectPath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba\\ProyectoPrueba.csproj"
+            "C:\\GitHub\\AppXamarin\\ProyectoPrueba\\ProyectoPrueba.csproj": {
+              "projectPath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba\\ProyectoPrueba.csproj"
             }
           }
         }

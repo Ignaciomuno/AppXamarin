@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ETLLCdzVJgtfr5gW3NGi/AGKAg/osN6uLsMBt3dMR0xQrApiyVFB6s39DnYrGnj8FCyj42WhxLkhiLtVJP1cCA==",
+  "dgSpecHash": "70wqIlxgMl4edr2xiF+wuhIc5hUlaIzeyl0+ux1Wa1rI60sTbvlv6ya5UpBtqR4n3smT503n4tkDKPSpWcSb4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
+  "projectFilePath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba.Android\\ProyectoPrueba.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ignacio.munoz\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

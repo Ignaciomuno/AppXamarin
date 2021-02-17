@@ -18,7 +18,7 @@
         <StackLayout>
 
             <Label Text="Tareas a Realizar" TextColor="Black"/>
-            <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" >
+            <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" ItemSelected="ListView_ItemSelected" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

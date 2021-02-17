@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pWPfwum5Me6uf9yxlxSSZtS4Y2gx7aWjCgD23krbi6FTq4p0Bxh8p6S8ZmtjqVmDgyOgQQC8eMWAuvXfUov0bQ==",
+  "dgSpecHash": "1qaw84wpx+lPU78FIi9pnPzCHVHOpfhjBml1XHGtKrgSThf18bjEbRkip0Cs/cKFiewTW2vfMARI8c7dr4/W1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ignacio.munoz\\source\\repos\\ProyectoPrueba\\ProyectoPrueba\\ProyectoPrueba.csproj",
+  "projectFilePath": "C:\\GitHub\\AppXamarin\\ProyectoPrueba\\ProyectoPrueba.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ignacio.munoz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ignacio.munoz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
