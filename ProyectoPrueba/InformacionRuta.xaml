@@ -5,31 +5,33 @@
              Title="Informacion Ruta"
              BackgroundColor="White">
     <StackLayout Margin="20,20,20,20">
-        <StackLayout>
+        <FlexLayout Direction="Column">
             <Label Text="Ruta: RUTA 0011" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
             <Label Text="Local: RUTA 0011 " TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
-        </StackLayout>
+        </FlexLayout>
         <Label Text="Descripcion" TextColor="Black"/>
+        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
         <StackLayout Margin="10,10,10,10">
-
-            <Label Text="Ruta: RUTA DE ENTREGA PARA 22-01-2021 WALLMART" TextColor="Black" FontSize="Large" />
+            <FlexLayout Direction="Column">
+                <Label Text=" RUTA DE ENTREGA PARA 22-01-2021 WALLMART" TextColor="Black" FontSize="Large" />
+            </FlexLayout>
         </StackLayout>
 
         <StackLayout>
-
-            <Label Text="Tareas a Realizar" TextColor="Black"/>
+            <Label Text="Realizadas" TextColor="Black"/>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
             <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" ItemSelected="ListView_ItemSelected" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="10" BackgroundColor="AliceBlue">
+                            <Grid Padding="8" BackgroundColor="White">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="auto"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
@@ -39,7 +41,8 @@
                                    Text="{Binding NombreRuta}"
                                    TextColor="Black"
                                    FontAttributes="Bold"/>
-                                <Label Grid.Column="2"
+                                <Label Grid.Column="1"
+                                       Grid.Row="1"
                                    Text="{Binding Descripcion}"
                                    TextColor="Black"                                  
                                    FontAttributes="Bold"/>

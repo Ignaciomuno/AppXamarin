@@ -6,32 +6,77 @@
              BackgroundColor="White">
     <StackLayout Margin="20,20,20,20">
         <StackLayout>
-            <Label Text="Ruta: RUTA 0011" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
+            <Label Text="TIPO: REPONER PRODUCTOS" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
         </StackLayout>
-        <Label Text="Descripcion" TextColor="Black"/>
+        <Label Text="Tarea" TextColor="Black"/>
+        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+        <StackLayout Margin="10,10,10,10">
+            <Label Text="AGREGAR PRODUCTOS EN FILA 5 CON MENBLA001 CANTIDAD 30 UNIDADES" TextColor="Black" FontSize="Large" />
+        </StackLayout>
+
+        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+        <Label Text="Obs Jefatura" TextColor="Black"/>
+
+        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
         <StackLayout Margin="10,10,10,10">
 
-            <Label Text="Ruta: RUTA DE ENTREGA PARA 22-01-2021 WALLMART" TextColor="Black" FontSize="Large" />
-        </StackLayout>
-        <StackLayout Margin="10,10,10,10">
+            <Label Text="En caso que existan stock previo vencido remover y adjuntar foto con fechas de caducidad"  TextColor="Black" FontSize="20" />
 
-            <Label Text="Ruta: RUTA DE ENTREGA PARA 22-01-2021 WALLMART" TextColor="Black" FontSize="Large" />
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
         </StackLayout>
-        <StackLayout Margin="10,10,10,10">
+        <StackLayout Margin="10,10,20,10">
 
-            <Button Text="Camara" Clicked="Button_Clicked"/>
-            <ListView x:Name="listPhotos">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Image Source="{Binding Source}" 
-                                   Aspect="AspectFit" 
-                                   Margin="5"/>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-                
-            </ListView>
+            <Image Source="Camara.png">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                Tapped="Button_Clicked"
+                NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Grid Margin="0">
+                <Grid>
+                    <CollectionView                  
+                x:Name="listPhotos"
+                Margin="0">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout
+                        Orientation="Vertical"
+                        Span="3"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid 
+                            HeightRequest="70"
+                            WidthRequest="35">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image 
+                                Grid.Row="0"
+                                Source="{Binding Source}"
+                                Aspect="AspectFill"/>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </Grid>
+        </StackLayout>
+        <StackLayout>
+            <FlexLayout>
+                <Grid Grid.Row="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button BackgroundColor="Green" Text="Realizado" TextColor="White" Grid.Column="0" Grid.Row="0" Clicked="Button_Clicked_1"/>
+                    <Button BackgroundColor="Red" Text="No Realizado" TextColor="White" Grid.Column="2" Grid.Row="0" Clicked="Button_Clicked_2"/>
+                </Grid>
+            </FlexLayout>
         </StackLayout>
     </StackLayout>
 </ContentPage>

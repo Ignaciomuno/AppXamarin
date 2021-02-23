@@ -4,5 +4,6 @@
     <SelectedDevice>HUAWEI ANE-LX3</SelectedDevice>
     <ProjectView>ProjectFiles</ProjectView>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>

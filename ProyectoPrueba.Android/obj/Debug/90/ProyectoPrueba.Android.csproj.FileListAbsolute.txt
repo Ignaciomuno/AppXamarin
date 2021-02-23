@@ -993,3 +993,9 @@ C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\stamp\_ConvertResources
 C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\carro.png
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\tienda.png
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\agregar.png
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\otros.png
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\reponer.png
+C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\res\drawable\camara.png

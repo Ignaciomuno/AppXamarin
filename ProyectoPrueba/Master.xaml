@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoPrueba.Master"
              Title="Muestra algo"
-             BackgroundColor="AliceBlue">
+             BackgroundColor="white">
     <StackLayout Orientation="Vertical">
         <Button Text="Rutas" x:Name="btnRutas" Clicked="btnRutas_Clicked"/>
         <Button Text="Segunda" x:Name="btnRutas2" Clicked="btnRutas2_Clicked"/>

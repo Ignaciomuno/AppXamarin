@@ -8,6 +8,7 @@ namespace ProyectoPrueba
     {
         public string NombreRuta { get; set; }
         public string Descripcion { get; set; }
+        public string  Estado { get; set; }
         public string Imagen { get; set; }
 
         public override string ToString()

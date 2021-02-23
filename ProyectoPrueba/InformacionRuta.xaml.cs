@@ -20,25 +20,26 @@ namespace ProyectoPrueba
 
             Rutas.Add(new Rutas
             {
-                Imagen = "Estado.png",
-                NombreRuta = "RUTA 001",
-                Descripcion = "RUTA DE REPOSICION"
+                Imagen = "Agregar.png",
+                NombreRuta = "AGREGAR PRODUCTOS",
+                Descripcion = "AGREGAR MENBLA001 FILA 3 PO..."
 
-
-            });
-            Rutas.Add(new Rutas
-            {
-                Imagen = "Estado.png",
-                NombreRuta = "RUTA 002",
-                Descripcion = "RUTA DE REPOSICION"
 
 
             });
             Rutas.Add(new Rutas
             {
-                Imagen = "Estado.png",
-                NombreRuta = "RUTA 003",
-                Descripcion = "RUTA DE REPOSICION"
+                Imagen = "Reponer.png",
+                NombreRuta = "REPONER PRODUCTOS",
+                Descripcion = "AGREGAR PRODUCTOS EN FILA 5 ..."
+
+
+            });
+            Rutas.Add(new Rutas
+            {
+                Imagen = "Otros.png",
+                NombreRuta = "OTROS",
+                Descripcion = "REVISAR INSTALACION DE JEFE A.."
 
 
             });

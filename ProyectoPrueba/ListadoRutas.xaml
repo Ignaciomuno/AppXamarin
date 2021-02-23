@@ -21,37 +21,50 @@
             </Frame>
         </Grid>
     </NavigationPage.TitleView>
-    <StackLayout Margin="20,20,20,20">
-        <Label Text="Hoy" TextColor="Black"/>
-        <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="10" BackgroundColor="AliceBlue">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Image Grid.Column="0"
-                                   Source="{Binding Imagen}"/>
-                            <Label Grid.Column="1"
-                                   Text="{Binding NombreRuta}"
+
+    <ScrollView>
+        <StackLayout Margin="20,20,20,20">
+            <Label Text="Hoy" TextColor="Black"/>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+            <ListView ItemsSource="{Binding Rutas}"  HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image 
+                                   Source="{Binding Imagen}"
+                                Aspect="AspectFill"
+                                HeightRequest="35"
+                                WidthRequest="50"/>
+                                <Label Grid.Column="1"
+                                   Text="{Binding NombreRuta}"                                   
                                    TextColor="Black"
                                    FontAttributes="Bold"/>
-                            <Label Grid.Column="2"
+                                <Label Grid.Row="1"
+                                Grid.Column="1"
                                    Text="{Binding Descripcion}"
                                    TextColor="Black"                                  
                                    FontAttributes="Bold"/>
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout Margin="20,20,20,20">
+
+                <Label Text="Realizadas" TextColor="Black"/>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

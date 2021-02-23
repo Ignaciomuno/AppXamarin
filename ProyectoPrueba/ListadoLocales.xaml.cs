@@ -20,8 +20,16 @@ namespace ProyectoPrueba
 
             locales.Add(new Locales
             {
-                Nombre="Local Alameda",
+                Imagen = "Carro.png",
+                Nombre ="Local Alameda",
                 Descripcion="Local alameda"
+
+            });
+            locales.Add(new Locales
+            {
+                Imagen="Tienda.png",
+                Nombre = "Local Alameda 2",
+                Descripcion = "Local alameda 2"
 
             });
             BindingContext = this;

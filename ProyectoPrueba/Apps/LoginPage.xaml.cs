@@ -26,7 +26,7 @@ namespace ProyectoPrueba.Apps
             string usuario = txtUsuarios.Text;
             if (usuario != "")
             {
-                Navigation.PushModalAsync(new MainPage("Uno"));
+                Navigation.PushModalAsync(new MainPage("Ruta"));
             }
         }
 

@@ -17,23 +17,29 @@ namespace ProyectoPrueba
         {
             InitializeComponent();
             Rutas = new List<Rutas>();
-
+            
             Rutas.Add(new Rutas
             {
                 Imagen = "Estado.png",
                 NombreRuta = "RUTA 001",
                 Descripcion = "RUTA DE REPOSICION"
-
-
             });
-            Rutas.Add(new Rutas
+            string EstadoVerde = "";
+            string EstadoAmarillo="";
+
+            if (EstadoVerde == "Estado Verde")
             {
-                Imagen = "Estado.png",
-                NombreRuta = "RUTA 002",
-                Descripcion = "RUTA DE REPOSICION"
+                Rutas.Add(new Rutas
+
+                {
+                    Imagen = "Estado.png",
+                    NombreRuta = "RUTA 002",
+                    Descripcion = "RUTA DE REPOSICION"
 
 
-            });
+                });
+            }
+         
             Rutas.Add(new Rutas
             {
                 Imagen = "Estado.png",

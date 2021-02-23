@@ -31,7 +31,6 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\lp\40\jl\res\layout\bottomtablayout.xml
 item;C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml
 LinearLayout;C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\lp\40\jl\res\layout\bottomtablayout.xml
-LinearLayout;obj\Debug\90\res\xml\file_paths.xml
 paths;C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 paths;obj\Debug\90\res\xml\file_paths.xml
 resources;C:\GitHub\AppXamarin\ProyectoPrueba.Android\obj\Debug\90\lp\40\jl\res\values\attrs.xml

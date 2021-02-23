@@ -60,5 +60,22 @@ namespace ProyectoPrueba
             listPhotos.ItemsSource = Photos;
 
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            if (Photos.Count!=0)
+            {
+                DisplayAlert("Listo", "Trabajo Realizado", "OK");
+            }
+            else
+            {
+                DisplayAlert("Error","Debe Agregar Fotos","Cancel");
+            }
+        }
+
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            await DisplayPromptAsync("Trabajo no realizado", "Motivo");
+        }
     }
 }
